@@ -1,0 +1,85 @@
+/* Polices */
+@font-face {
+    font-family: 'exoextrabold';
+    src: url('police/exo-extrabold-webfont.woff2') format('woff2'),
+         url('police/exo-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* General */
+body{
+	background: url("image/planete3.jpg")fixed no-repeat;
+	color: rgb(73, 202, 245);
+}
+
+#wrapper {
+	width: 100%;
+	display: flex;
+}
+
+h1, h2 {
+	font-family: 'exoextrabold', Arial, serif;
+}
+
+
+/* side */
+#side {
+	flex: 0.5;
+	word-wrap: break-word;
+	background: url("image/fond.jpg");
+	height: 900px;
+	border: 2px black solid;
+	border-radius: 10px;
+	color: white;
+}
+
+#side img {
+	width: 100%;
+}
+
+#side strong {
+	font-family: 'exoextrabold', Arial, serif;
+}
+
+
+/* main */
+#main {
+	flex: 3;
+}
+
+header {
+	text-align: center;
+	font-size: 1.5em;
+}
+header p {
+	font-size: 1.2em;
+	text-shadow: 6px 6px 6px white;
+}
+
+#photo {
+	position: absolute;
+	right: 10px;
+	top : 40px;
+	text-align: right;
+	font-size: 0.9em;
+}
+#photo img {
+	border: 2px white solid;
+	border-radius: 6px;
+}
+#moyen {
+	display: none;
+}
+#petit {
+	display: none;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 200px;
+}
